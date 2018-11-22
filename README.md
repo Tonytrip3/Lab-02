@@ -16,6 +16,21 @@ Estimate of time needed to complete: 1 hr
 
 Start time: 8:10pm
 
-Finish time: _____
+Finish time: 9:10pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr
+
+Number and name of feature: #3: Style the application
+
+Estimate of time needed to complete: 5 mins
+
+Start time: 9:10pm
+
+Finish time: 9:14pm
+
+Actual time needed to complete: 4 mins
+
+Pair programmed with Mae
+
+Driver Anthony
+Navigator Mae
