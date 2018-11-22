@@ -27,8 +27,8 @@ Horn.prototype.render = function(){
   $clone.find('p').text(this.description);
 
   $clone.removeClass('clone');
-  $clone.attr('class', this.title);
-  
+  $clone.attr('id', this.title);
+  $clone.attr('class', this.keyword);
 }
 
 function readJSON (){
@@ -59,9 +59,17 @@ function readJSON (){
 
 $("select").on("change", function(){
   let filter = $(this).children("option:selected").val();
-  images.forEach(element => {
-    if(element.keyword !== )
-  })
+  if(filter === 'default'){
+    $('section').show();
+  } else{
+    keywords.forEach(element => {
+      if(element !== filter){
+        $('.' + element).hide();
+      } else {
+        $('.' + element).show();
+      }
+    })
+  }
 })
 
 readJSON();
